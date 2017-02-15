@@ -1,4 +1,7 @@
 <h1>Categories:</h1>
 <ul *ngFor="let category of categories">
-  <li>#{{ category.id }} - {{ category.name }}</li>
+  <li class="custom-list-item">
+    <span class="glyphicon glyphicon-star" aria-hidden="true"></span> Star
+    #{{ category.id }} - {{ category.name }}
+  </li>
 </ul>
