@@ -1,3 +1,4 @@
-<p>
-  category works!
-</p>
+<h1>Categories:</h1>
+<ul *ngFor="let category of categories">
+  <li>#{{ category.id }} - {{ category.name }}</li>
+</ul>
